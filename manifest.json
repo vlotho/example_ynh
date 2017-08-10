@@ -1,10 +1,10 @@
 {
-    "name": "YunoHost example app",
-    "id": "ynhexample",
+    "name": "Disk Part",
+    "id": "diskpart",
     "packaging_format": 1,
     "description": {
-        "en": "Example package for YunoHost application.",
-        "fr": "Exemple de package d’application pour YunoHost."
+        "en": "Disk partition application.",
+        "fr": "Application de partitionnage de disques."
     },
     "url": "https://example.com",
     "license": "free",
@@ -15,6 +15,7 @@
     },
     "requirements": {
         "yunohost": ">= 2.6.4"
+        "python-parted": ""
     },
     "multi_instance": true,
     "services": [
